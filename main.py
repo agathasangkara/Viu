@@ -136,7 +136,7 @@ print(f'''{F.YELLOW}
 ''')
 index = Viu()
 nomor = CONFIG['Nomor']
-proxyless = int(input("1. Proxies\n2. Proxyless\n\nChoice : "))
+proxyless = int(input("1. Proxies (Use Proxy)\n2. Proxyless(Without Proxy)\n\nChoice : "))
 print("\nPlease wait for your request to be processed !\n")
 with t.ThreadPoolExecutor(max_workers=CONFIG['Thread']) as exec:
         t.wait([exec.submit(index.create_account, nomor, proxyless) for _ in range(CONFIG['Thread'])])
