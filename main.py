@@ -54,7 +54,7 @@ class Viu:
             proxy_list = self.load_proxies()
             if not proxy_list:
                 print(F.RED + "Proxy list is empty or file not found.")
-                return
+                exit()
             
             proxy = random.choice(proxy_list)
             query['proxy'] = proxy
