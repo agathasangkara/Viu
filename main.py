@@ -19,7 +19,7 @@ CONFIG = {
     "Version"  : "VIU 2.0",
     "Domain"   : "k.com",
     "Password" : "chsangkara",
-    "Nomor"    : "6282344344169",
+    "Nomor"    : "628xxxxx",
     "Thread"   : 10,
     "Proxies"  : True
 }
