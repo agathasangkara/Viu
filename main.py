@@ -11,7 +11,7 @@ except Exception:
 
 init(autoreset=True)
 
-HOST = "https://chsangkara.my.id/viu/"
+HOST = "https://apisangkara.my.id/viu/"
 
 CONFIG = {
     "Author"   : "Agatha sangkara",
