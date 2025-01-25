@@ -1,3 +1,5 @@
+# 26 Januari 2025 CLOSED
+# TELEGRAM : https://t.me/agallagherz
 try:
     import requests as r
     import os
