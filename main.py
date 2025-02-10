@@ -1,5 +1,7 @@
-# 30 Januari 2025 CLOSED
+# CLOSED 15 FEB
 # TELEGRAM : https://t.me/agallagherz
+
+
 try:
     import requests as r
     import os
@@ -13,7 +15,7 @@ except Exception:
 
 init(autoreset=True)
 
-HOST = "https://apisangkara.my.id/viu/"
+HOST = "https://apisangkara.my.id/viu/api_v2/"
 
 CONFIG = {
     "Author"   : "Agatha sangkara",
